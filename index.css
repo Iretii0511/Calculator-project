@@ -1,0 +1,91 @@
+body{
+    background-color: yellow;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+}
+
+.project_body{
+    position: relative;
+    margin: auto;
+    height: 400px;
+    width: 350px;
+    background-color: darkmagenta;
+    border-radius: 0.3em;
+}
+.display_wrapper{
+    text-align: center;
+}
+.display {
+    display: inline-block;
+    height: 80px;
+    width: 330px;
+    margin-top: 0.5em;
+    background-color: white;
+}
+.number_keys{
+    position: absolute;
+    bottom: 0px;
+    right: 55.5px;
+}
+.operators{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.keys{
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 130px;
+    bottom: 10px;
+}
+.keys_wrapper {
+    text-align: center;
+}
+.number_keys button{
+    border-radius: 50%;
+}
+
+.operators button{
+    display: block;
+    border-radius: 30%;
+}
+.clear button, .equal button, .changesign button{
+    border-radius: 20%;
+}
+.equal {
+    position: absolute;
+    bottom: 0px;
+    left: 55.5px;
+}
+.equal button{
+    display: block
+}
+#zero{
+    width: 104px;
+}
+#backspace{
+    position: absolute;
+    right: 55.5px;
+    width: 160px;
+    background-color: magenta;
+}
+#equalto{
+    height:100px;
+}
+#plusminus{
+    height: 100px;
+}
+#clear_all{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 250px;
+    background-color: red;
+}
